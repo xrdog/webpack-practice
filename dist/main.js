@@ -1,1 +1,0 @@
-(()=>{const o=o=>{let l=0,e=0;for(let n of o){if("("===n&&l++,")"===n&&(l--,l<0)){if(!e)return!1;e--,l++}"*"===n&&e++}return e>=l};console.log(o("(()")),console.log(o("((*)")),console.log(o("(((((*)")),console.log(o("((((((*)")),console.log(o("((*****((((*)")),console.log(o("((**))))*****((((*)"))})();
